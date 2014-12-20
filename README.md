@@ -1,4 +1,4 @@
-hoek-boom  [![Build Status](https://travis-ci.org/mrlannigan/hoek-boom.svg)](https://travis-ci.org/mrlannigan/hoek-boom)
+hoek-boom  [![Build Status](https://travis-ci.org/mrlannigan/hoek-boom.svg)](https://travis-ci.org/mrlannigan/hoek-boom) [![Dependency Status](https://david-dm.org/mrlannigan/hoek-boom.svg)](https://david-dm.org/mrlannigan/hoek-boom) [![devDependency Status](https://david-dm.org/mrlannigan/hoek-boom/dev-status.svg)](https://david-dm.org/mrlannigan/hoek-boom#info=devDependencies)
 =========
 
 ![hoek Logo](https://raw.github.com/hapijs/hoek/master/images/hoek.png)
