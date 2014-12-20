@@ -1,4 +1,4 @@
-hoek-boom
+hoek-boom  [![Build Status](https://travis-ci.org/mrlannigan/hoek-boom.svg)](https://travis-ci.org/mrlannigan/hoek-boom)
 =========
 
 ![hoek Logo](https://raw.github.com/hapijs/hoek/master/images/hoek.png)
