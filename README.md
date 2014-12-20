@@ -23,6 +23,18 @@ On top of the already exposed Hoek module API.
 var a = 1, b = 2;
 
 HoekBoom.assertBoom(a === b, 'a should equal b', 'expectationFailed');  // ABORT: a should equal b, throw boom error
+
+// other uses ...
+HoekBoom.assertBoom(); // throws Error
+HoekBoom.assertBoom(a === b); // throws Error
+HoekBoom.assertBoom(a === b, new Error('example')); // throws given error object
+HoekBoom.assertBoom(a === b, 'badRequest'); // throws Boom.badRequest()
+HoekBoom.assertBoom(a === b, 'some message'); // throws Error('some message')
+HoekBoom.assertBoom(a === b, 'some', 'message', new Error('here'), 'for all', {test: 'lolz'});  // throws Error('some message here for all ' + JSON.stringify({test: 'lolz'}))
+HoekBoom.assertBoom(a === b, 'some', 'message'); // throws Error('some message')
+HoekBoom.assertBoom(a === b, 'check the docs', 'badRequest'); // throws Boom.badRequest('check the docs')
+HoekBoom.assertBoom(a === b, 'check the docs', {username: 'johnsmith'}, 'badRequest'); // throws Boom.badRequest('check the docs', {username: 'johnsmith'})
+HoekBoom.assertBoom(a === b, 'invalid password', 'sample', {username: 'johnsmith'}, 'unauthorized'); // throws Boom.unauthorized('invalid password', 'sample', {username: 'johnsmith'})
 ```
 
 ### Boom
