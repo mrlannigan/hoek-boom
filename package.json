@@ -1,0 +1,29 @@
+{
+  "name": "hoek-boom",
+  "version": "1.0.0",
+  "description": "Node utilities shared amongst the extended hapi universe with some boom sprinkles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrlannigan/hoek-boom.git"
+  },
+  "keywords": [
+    "utilities",
+    "error",
+    "http",
+    "hapi"
+  ],
+  "author": "Julian Lannigan <julian.lannigan@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/mrlannigan/hoek-boom/issues"
+  },
+  "homepage": "https://github.com/mrlannigan/hoek-boom",
+  "dependencies": {
+    "boom": "^2.6.1",
+    "hoek": "^2.10.0"
+  }
+}
