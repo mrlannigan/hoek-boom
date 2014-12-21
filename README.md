@@ -11,7 +11,7 @@ hoek-boom  [![Build Status](https://travis-ci.org/mrlannigan/hoek-boom.svg)](htt
 
 # Introduction
 
-This library extends and exposes [Hoek](https://github.com/hapijs/hoek) and also exposes [Boom](https://github.com/hapijs/boom).
+This library extends [Hoek](https://github.com/hapijs/hoek) and exposes [Boom](https://github.com/hapijs/boom).
 
 # Additional Features
 
