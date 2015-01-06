@@ -1,6 +1,6 @@
 {
   "name": "hoek-boom",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Extending node utilities shared amongst the extended hapi universe with some boom sprinkles",
   "main": "index",
   "scripts": {
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/mrlannigan/hoek-boom",
   "dependencies": {
     "boom": "^2.6.x",
-    "hoek": "^2.10.x"
+    "hoek": "^2.11.x"
   },
   "devDependencies": {
     "code": "^1.2.x",
