@@ -27,7 +27,7 @@
     "hoek": "^2.14.x"
   },
   "devDependencies": {
-    "code": "^1.2.x",
+    "code": "^1.4.x",
     "lab": "^5.1.x"
   },
   "engines": {

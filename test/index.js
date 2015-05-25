@@ -33,9 +33,12 @@ describe('assertBoom()', function () {
 
     // assertBoom(a === b)
     it('good condition', function (done) {
-        expect(function () {
+        var good = function () {
             return HoekBoom.assertBoom(1 === 1);
-        }).to.not.throw().and.to.be.undefined();
+        };
+
+        expect(good).to.not.throw();
+        expect(good()).to.be.undefined();
 
         done();
     });
