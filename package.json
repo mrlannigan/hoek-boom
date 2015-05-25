@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "code": "^1.4.x",
-    "lab": "^5.1.x"
+    "lab": "^5.9.x"
   },
   "engines": {
     "node": ">=0.10.0"
