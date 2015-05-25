@@ -1,6 +1,6 @@
 {
   "name": "hoek-boom",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Extending node utilities shared amongst the extended hapi universe with some boom sprinkles",
   "main": "index",
   "scripts": {
