@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/mrlannigan/hoek-boom",
   "dependencies": {
-    "boom": "^2.7.x",
-    "hoek": "^2.14.x"
+    "boom": "^2.10.x",
+    "hoek": "^2.16.x"
   },
   "devDependencies": {
-    "code": "^1.4.x",
-    "lab": "^5.9.x"
+    "code": "^1.5.x",
+    "lab": "^6.2.x"
   },
   "engines": {
     "node": ">=0.10.0"
